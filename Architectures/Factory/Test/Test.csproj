@@ -49,7 +49,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Pls.Factory.Contract\Pls.Factory.Contract.csproj">
+    <ProjectReference Include="..\Pls.Factory.Contract\Pls.Factory.Contract.csproj">
       <Project>{962c05f6-7c8e-4878-bc6e-d0c63a5f9fe4}</Project>
       <Name>Pls.Factory.Contract</Name>
     </ProjectReference>

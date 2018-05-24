@@ -46,11 +46,11 @@
     <Compile Include="VirtualFactory.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Pls.Factory.Contract\Pls.Factory.Contract.csproj">
-      <Project>{962C05F6-7C8E-4878-BC6E-D0C63A5F9FE4}</Project>
+    <ProjectReference Include="..\Pls.Factory.Contract\Pls.Factory.Contract.csproj">
+      <Project>{962c05f6-7c8e-4878-bc6e-d0c63a5f9fe4}</Project>
       <Name>Pls.Factory.Contract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Pls.Factory.Implementation\Pls.Factory.Implementation.csproj">
+    <ProjectReference Include="..\Pls.Factory.Implementation\Pls.Factory.Implementation.csproj">
       <Project>{1283908f-8915-462f-9b33-e17fe20b59c4}</Project>
       <Name>Pls.Factory.Implementation</Name>
     </ProjectReference>
