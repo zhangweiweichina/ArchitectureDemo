@@ -1,0 +1,25 @@
+﻿using Pls.Factory.Contract;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pls.Factory.Implementation
+{
+    public class MITV : ITV
+    {
+        public string Name
+        {
+            get { return "Mi TV"; }
+        }
+    }
+
+    public class HWTV : ITV
+    {
+        public string Name
+        {
+            get { return "HuaWei TV"; }
+        }
+    }
+}
