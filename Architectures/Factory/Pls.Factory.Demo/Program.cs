@@ -1,12 +1,12 @@
 ﻿using Pls.Factory.Contract;
-using Pls.Factory.Factory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Pls.Factory.Factory;
 
-namespace Test
+namespace Pls.Factory.Demo
 {
     class Program
     {
@@ -23,7 +23,7 @@ namespace Test
             //Factory Method
             FactroyMethodBase method = new MiPhoneFactoryMethod();
             Console.WriteLine(method.CreatePhone().Name);
-            
+
             method = new HwPhoneFactoryMethod();
             Console.WriteLine(method.CreatePhone().Name);
 

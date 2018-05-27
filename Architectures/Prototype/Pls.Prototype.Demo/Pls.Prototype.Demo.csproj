@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{012F8A8F-D415-4979-BE9D-2867A27ABD6B}</ProjectGuid>
+    <ProjectGuid>{810F8E5F-B0AB-4A1C-8CA4-AA01E7EEB4E1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Test</RootNamespace>
-    <AssemblyName>Test</AssemblyName>
+    <RootNamespace>Pls.Prototype.Demo</RootNamespace>
+    <AssemblyName>Pls.Prototype.Demo</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,13 +49,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Pls.Factory.Contract\Pls.Factory.Contract.csproj">
-      <Project>{962c05f6-7c8e-4878-bc6e-d0c63a5f9fe4}</Project>
-      <Name>Pls.Factory.Contract</Name>
+    <ProjectReference Include="..\Pls.Prototype.Contract\Pls.Prototype.Contract.csproj">
+      <Project>{a293e4a0-3e95-42dc-bf5a-246aa9d6cdd7}</Project>
+      <Name>Pls.Prototype.Contract</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Pls.Factory.Factory\Pls.Factory.Factory.csproj">
-      <Project>{c509dc78-9fab-401d-958b-79d0add525ba}</Project>
-      <Name>Pls.Factory.Factory</Name>
+    <ProjectReference Include="..\Pls.Prototype.Factory\Pls.Prototype.Factory.csproj">
+      <Project>{bd71b355-a348-43d4-97a0-9514daefa0c3}</Project>
+      <Name>Pls.Prototype.Factory</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
