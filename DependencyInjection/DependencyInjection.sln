@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pls.DependencyInjection.Demo", "Pls.DependencyInjection.Demo\Pls.DependencyInjection.Demo.csproj", "{D93A2308-6B0C-4D67-8A4C-3E022E1B835A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pls.MEF.Demo", "Pls.MEF.Demo\Pls.MEF.Demo.csproj", "{DFD3917E-ED82-4B67-9E6F-F895EBDA78DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93A2308-6B0C-4D67-8A4C-3E022E1B835A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93A2308-6B0C-4D67-8A4C-3E022E1B835A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93A2308-6B0C-4D67-8A4C-3E022E1B835A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93A2308-6B0C-4D67-8A4C-3E022E1B835A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD3917E-ED82-4B67-9E6F-F895EBDA78DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD3917E-ED82-4B67-9E6F-F895EBDA78DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD3917E-ED82-4B67-9E6F-F895EBDA78DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD3917E-ED82-4B67-9E6F-F895EBDA78DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39FDA899-E09A-4311-9AF1-41D8AF0BE914}
+	EndGlobalSection
+EndGlobal
