@@ -16,6 +16,9 @@ namespace Pls.Command.Demo
         //命令模式使调用者直接调用接受者变换成了调用者通过命令对象来处理接受者。
         //命令模式实际上使处理方法和处理数据之间的解耦。
         //通过命令方式在外部很轻松的扩展数据的处理方法。
+        //具体应用如下：
+        //MVC模式下会根据用户输入的URL地址创建不同的Handler(Command)
+        //通过Handler处理用户的数据，返回给用户需要的HTML
         static void Main(string[] args)
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().DeclaringType.Namespace);
