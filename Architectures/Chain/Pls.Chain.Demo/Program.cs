@@ -14,7 +14,6 @@ namespace Pls.Chain.Demo
         //责任链
         //用于多个处理对象和处理数据的解耦
         //新增加处理对象的时候，只需要添加新的处理对象即可。
-        //c#的事件处理和C++的消息处理都是责任链的典型应用
         static void Main(string[] args)
         {
             Console.WriteLine(MethodBase.GetCurrentMethod().DeclaringType.Namespace);
