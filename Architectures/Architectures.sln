@@ -130,7 +130,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{26
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chain", "Chain", "{808CD4FF-90D5-47B4-BB0F-3008402C4B63}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apply", "Apply", "{BD1E94C0-A9C3-4EB2-AEB6-F56AD1FC1E2F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior", "Behavior", "{BD1E94C0-A9C3-4EB2-AEB6-F56AD1FC1E2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{01E18763-E60B-42B2-9B9E-749024387CB0}"
 EndProject
@@ -153,6 +153,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pls.Mediator.Contract", "Mediator\Pls.Mediator.Contract\Pls.Mediator.Contract.csproj", "{288D2D75-0FBA-46B5-AFF7-D346D58A7742}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pls.Mediator.Implementation", "Mediator\Pls.Mediator.Implementation\Pls.Mediator.Implementation.csproj", "{13293687-75EE-4490-96EB-4365B9053EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pls.Observer.Demo", "Observer\pls.Observer.Demo\pls.Observer.Demo.csproj", "{420D0143-F6AE-4821-8266-B616CFA54BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pls.Observer.Contract", "Observer\Pls.Observer.Contract\Pls.Observer.Contract.csproj", "{80423734-3227-4A13-8540-93DD8058D516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pls.Observer.Implementation", "Observer\Pls.Observer.Implementation\Pls.Observer.Implementation.csproj", "{0D9DFEAD-2536-4430-AC60-92178ACD54E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -352,6 +358,18 @@ Global
 		{13293687-75EE-4490-96EB-4365B9053EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13293687-75EE-4490-96EB-4365B9053EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13293687-75EE-4490-96EB-4365B9053EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420D0143-F6AE-4821-8266-B616CFA54BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420D0143-F6AE-4821-8266-B616CFA54BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420D0143-F6AE-4821-8266-B616CFA54BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420D0143-F6AE-4821-8266-B616CFA54BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80423734-3227-4A13-8540-93DD8058D516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80423734-3227-4A13-8540-93DD8058D516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80423734-3227-4A13-8540-93DD8058D516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80423734-3227-4A13-8540-93DD8058D516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9DFEAD-2536-4430-AC60-92178ACD54E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9DFEAD-2536-4430-AC60-92178ACD54E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9DFEAD-2536-4430-AC60-92178ACD54E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9DFEAD-2536-4430-AC60-92178ACD54E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -425,6 +443,9 @@ Global
 		{3698731A-8E4E-482C-A241-24B0427ABAC7} = {260CB726-4CE5-40A8-91FA-840289A30586}
 		{288D2D75-0FBA-46B5-AFF7-D346D58A7742} = {260CB726-4CE5-40A8-91FA-840289A30586}
 		{13293687-75EE-4490-96EB-4365B9053EDD} = {260CB726-4CE5-40A8-91FA-840289A30586}
+		{420D0143-F6AE-4821-8266-B616CFA54BC3} = {01E18763-E60B-42B2-9B9E-749024387CB0}
+		{80423734-3227-4A13-8540-93DD8058D516} = {01E18763-E60B-42B2-9B9E-749024387CB0}
+		{0D9DFEAD-2536-4430-AC60-92178ACD54E1} = {01E18763-E60B-42B2-9B9E-749024387CB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5BE2B73F-5352-4CC1-A198-622423D9BCD7}
