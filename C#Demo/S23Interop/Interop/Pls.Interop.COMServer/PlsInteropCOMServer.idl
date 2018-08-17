@@ -1,0 +1,74 @@
+﻿// PlsInteropCOMServer.idl : IDL source for Pls.Interop.COMServer
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (PlsInteropCOMServer.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+//COM的接口信息必须在IDL文件中定义
+//1. 接口的声明
+//2. COM对象的声明
+
+//[接口的元数据(特性)]
+//通过[id(n)]来定义IDispatch接口对应的函数
+[
+	object,
+	uuid(AC8D541E-5804-40DF-902A-E04F2D0B98E4),
+	dual,
+	nonextensible,
+	pointer_default(unique),
+	custom(f6cd3ccd-1475-4ddc-ae88-296c232332de,
+	"Pls.COMServer.IMethod")
+]
+interface IMyMethod : IDispatch{
+	[id(1)] HRESULT Add([in] DOUBLE x, [in] DOUBLE y, [out] DOUBLE* res);
+};
+
+//[接口的元数据(特性)]
+[
+	object,
+	uuid(AC8D541E-58e0-40DF-902A-E04F2D0B98E4),
+	dual,
+	nonextensible,
+	pointer_default(unique),	
+	custom(8d3004e2-1046-4f86-99d9-2c532f7d1661,
+	"Pls.COMServer.IWelcome")
+]
+//[接口信息]
+interface IWelcome : IDispatch{
+	[id(1)] HRESULT Greeting([in] BSTR name, [out,retval] BSTR* message);
+};
+
+
+[
+	uuid(33EBA9C6-1D1A-4079-BFD3-17B6B3A15D08),
+	version(1.0),
+]
+library PlsInteropCOMServerLib
+{
+	importlib("stdole2.tlb");
+
+	[
+		uuid(AC8D541E-58e0-40DF-902A-E04F2DEB98E4),
+		helpstring("_ICompletedEvents interface"),
+	]
+	dispinterface _ICompletedEvents
+	{
+		properties:
+		methods:
+			[id(1)] void Completed(void);
+	}
+
+	[
+		uuid(C0830455-8EDD-4820-90D5-4377C034A950),
+		custom(C0830455-8EDD-4820-90D5-4377C034AE51,"Pls.Interop.COMServer")
+	]
+	coclass MyMethod //COM对象
+	{
+		[default] interface IWelcome; //默认接口
+		interface IMyMethod;
+		[default,source] dispinterface _ICompletedEvents;
+	};
+};
+
